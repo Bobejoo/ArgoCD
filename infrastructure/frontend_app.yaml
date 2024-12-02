@@ -1,0 +1,10 @@
+project: default
+source:
+  repoURL: 'https://github.com/Bobejoo/ArgoCD.git'
+  path: frontend
+  targetRevision: HEAD
+destination:
+  server: 'https://kubernetes.default.svc'
+  namespace: default
+syncPolicy:
+  automated: {}
