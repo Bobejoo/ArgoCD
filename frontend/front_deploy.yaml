@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: bobejoo/frontend:latest
+        image: bobejoo/frontend:RC-5
         ports:
         - containerPort: 5000
         env:
